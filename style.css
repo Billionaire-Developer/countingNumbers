@@ -1,0 +1,25 @@
+.container{
+    text-align: center;
+}
+.container #countingNumber {
+    font-family: 'poppins', sans-serif;
+    font-size: 5rem;
+    display: block;
+}
+#buttons button {
+    display: inline-block;
+    margin: 15px;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    color: #ffff;
+    border: none;
+    background: hsl(218, 78%, 31%);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .225s;
+}
+#buttons button:hover {
+    background: hsl(237, 80%, 27%);
+}
